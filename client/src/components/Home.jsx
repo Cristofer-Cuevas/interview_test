@@ -25,8 +25,6 @@ const Home = () => {
     }
   );
 
-  console.log(data);
-
   const studentsList = data?.students;
 
   const [showAddStudent, setShowAddStudent] = useState(false);
@@ -39,8 +37,6 @@ const Home = () => {
       setShowAddStudent(true);
       e.target.textContent = "Students List";
     }
-
-    console.log(e);
   };
 
   const getInputValue = (value) => {

@@ -36,8 +36,6 @@ const Records = ({ date }) => {
     }
   );
 
-  console.log(data);
-
   const handleRecordDateSelect = (e) => {
     setRecordDate(e.target.value);
   };
@@ -54,7 +52,6 @@ const Records = ({ date }) => {
   };
 
   const handleRecordDelete = (e) => {
-    console.log(e.target.dataset.record_id);
     mutateDeleteRecord({ recordId: e.target.dataset.record_id });
   };
 

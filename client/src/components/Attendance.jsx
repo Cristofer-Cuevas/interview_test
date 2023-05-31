@@ -7,7 +7,8 @@ import letterE from "../styles/assets/letter-e.png";
 import letterP from "../styles/assets/letter-p.png";
 import trashBin from "../styles/assets/trash-bin.png";
 import AttendanceDiv from "../styles/Attendance.styles";
-import { postAttendance, deleteAttendance } from "../fetchMethods/postMethods";
+import { postAttendance } from "../fetchMethods/postMethods";
+import { deleteAttendance } from "../fetchMethods/deleteMethods";
 
 const Attendance = ({ studentsList, date }) => {
   const [attendanceDate, setAttendanceDate] = useState(date);

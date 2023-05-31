@@ -39,7 +39,6 @@ a:visited {
 }
 
 img {
-	/* width: 100%; */
 	border-style: none;
 }
 

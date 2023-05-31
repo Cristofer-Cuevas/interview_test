@@ -14,7 +14,6 @@ const StudentsList = ({
   const students = studentsList?.filter((student) =>
     student.name.toLowerCase().includes(inputValue.toLowerCase())
   );
-  console.log(students);
 
   return (
     <section>
